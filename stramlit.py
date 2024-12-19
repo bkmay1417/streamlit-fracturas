@@ -10,7 +10,7 @@ from functools import lru_cache
 import cv2
 
 # Ruta donde se descargará y descomprimirá el modelo
-SAVED_MODEL_DIR = "modeloexportado\saved_model"
+SAVED_MODEL_DIR = "modeloexportado/saved_model"
 MODEL_ZIP = "modeloexportado.zip"
 
 # Función para descargar y preparar el modelo desde Dropbox
