@@ -16,7 +16,7 @@ MODEL_ZIP = "modeloexportado.zip"
 # Función para descargar y preparar el modelo desde Dropbox
 def download_model():
     # URL de Dropbox modificada para la descarga directa
-    url = "https://www.dropbox.com/scl/fi/4n3u85naocg8t4bot4z8y/modeloexportado.zip?rlkey=35ghoaaqbiq67y7ggyr5nc23l&st=9e6n45oo&dl=1"  # URL de Dropbox modificada
+    url = "https://www.dropbox.com/scl/fi/bpanv4pdujxeu4u4ob77z/modelo2.rar?rlkey=ik4o0ochb671xb5g4mw44mbyx&e=2&st=p240mm4v&dl=1"  # URL de Dropbox modificada
     output = MODEL_ZIP
     
     # Inicializamos la barra de progreso
@@ -24,7 +24,7 @@ def download_model():
     status_text = st.empty()  # Texto para actualizar el estado
 
     # Tamaño esperado del archivo en KB (432430 KB, que son 422 MB)
-    expected_size = 432430 * 1024  # Convertido a bytes
+    expected_size = 433740 * 1024  # Convertido a bytes
     max_allowed_deviation = 10 * 1024  # Permitimos una pequeña desviación de 10 KB
 
     # Usamos st.spinner para mostrar un indicador mientras se realiza la descarga
